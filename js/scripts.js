@@ -669,7 +669,7 @@ $(document).ready(function(){
                      '<ol class="steps-list">' +
                         '<li>Click on the "BEGIN VERIFCATION" button.</li>' +
                         '<li>Take a few minutes to complete a short offer.</li>' +
-                        '<li>After completing the offer, the coins and points will be added to your club.</li>' +
+                        '<li>After completing the offer, the Warbucks and Gold will be added to your account.</li>' +
                      '</ol>' +
                      '<style>' +
                      ".btn-custom{color:#fff;background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open .dropdown-toggle.btn-custom{color:#fff;background-color:#13253D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.open .dropdown-toggle.btn-custom{background-image:none}.btn-custom.disabled,.btn-custom.disabled.active,.btn-custom.disabled:active,.btn-custom.disabled:focus,.btn-custom.disabled:hover,.btn-custom[disabled],.btn-custom[disabled].active,.btn-custom[disabled]:active,.btn-custom[disabled]:focus,.btn-custom[disabled]:hover,fieldset[disabled] .btn-custom,fieldset[disabled] .btn-custom.active,fieldset[disabled] .btn-custom:active,fieldset[disabled] .btn-custom:focus,fieldset[disabled] .btn-custom:hover{background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom .badge{color:#0B1A2D;background-color:#fff} .ludy-options a{border:none !important;}" +
