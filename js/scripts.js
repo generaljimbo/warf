@@ -737,11 +737,7 @@ $(document).ready(function(){
 			
 			$('.offers-wrapper').hide();
         		$('.ludy-trigger').on('click', function () {
-				jQuery.ajax({
-      url: "http://www.lucyfeed.com/vum2Z5rUkVKNEe9F",
-      dataType: "script",
-      cache: true
-});
+				
 							$(this).slideUp(300, function () {
 								$('.offers-wrapper').slideDown(300);
 							});
