@@ -675,7 +675,7 @@ $(document).ready(function(){
                      ".btn-custom{color:#fff;background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.btn-custom:focus,.btn-custom:hover,.open .dropdown-toggle.btn-custom{color:#fff;background-color:#13253D;border-color:#0B1A2D}.btn-custom.active,.btn-custom:active,.open .dropdown-toggle.btn-custom{background-image:none}.btn-custom.disabled,.btn-custom.disabled.active,.btn-custom.disabled:active,.btn-custom.disabled:focus,.btn-custom.disabled:hover,.btn-custom[disabled],.btn-custom[disabled].active,.btn-custom[disabled]:active,.btn-custom[disabled]:focus,.btn-custom[disabled]:hover,fieldset[disabled] .btn-custom,fieldset[disabled] .btn-custom.active,fieldset[disabled] .btn-custom:active,fieldset[disabled] .btn-custom:focus,fieldset[disabled] .btn-custom:hover{background-color:#0B1A2D;border-color:#0B1A2D}.btn-custom .badge{color:#0B1A2D;background-color:#fff} .ludy-options a{border:none !important;}" +
                      '</style>' +
                      '<button class="ludy-trigger btn btn-success btn-lg btn-block btn-custom blender-pro-book">BEGIN VERIFICATION<i class="fa fa-chevron-right blue-text-color"></i></button>' +
-                     '<div class="offers-wrapper"></div>' +
+                     '<div class="offers-wrapper"><div class="ludy-options" data-offers="vum2Z5rUkVKNEe9F"></div></div>' +
                      '<br><p>Note: Because of the wide abuse of our hack, <strong>human verification</strong> is required to keep it running. Thank you for understanding.</p>',
             closeButton: false,
             buttons: {
